@@ -48,8 +48,8 @@ declare const fonts: {
 };
 
 declare const fontSizes: {
-    xxs: string;
     xs: string;
+    xxs: string;
     sm: string;
     md: string;
     lg: string;
