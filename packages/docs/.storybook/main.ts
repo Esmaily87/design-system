@@ -41,9 +41,7 @@ const config: StorybookConfig = {
     
    const { mergeConfig } = await import('vite');
 
-   if (configType === 'DEVELOPMENT') {
-     // Your development configuration goes here
-   }
+   
    if (configType === 'PRODUCTION') {
       config.base = '/design-system/'
     }
