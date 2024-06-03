@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Text, TextProps } from "@ignite-ui/react/src";
+import { Text, TextProps } from "@smiley87/react/src";
 
 export default {
   title: "Typography/Text",

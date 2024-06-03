@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@smiley87/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,9 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@smiley87/eslint-config": "*",
+    "@smiley87/react": "*",
+    "@smiley87/tokens": "*",
     "@storybook/addon-a11y": "^8.1.5",
     "@storybook/addon-docs": "^8.1.5",
     "git-up": "^7.0.0",

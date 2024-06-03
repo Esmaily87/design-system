@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@smiley87/react",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@smiley87/eslint-config": "*",
+    "@smiley87/tokens": "*",
+    "@smiley87/ts-config": "*",
     "@types/react": "^18.2.75",
     "@types/react-dom": "^18.2.24",
     "react": "^18.2.0",
