@@ -45,17 +45,8 @@ const config: StorybookConfig = {
 
    
    if (configType === 'PRODUCTION') {
-      config.base = '/', '/design-system/'
+      config.base = '/design-system/'
       
-    }
-
-    if (configType === 'PRODUCTION') {
-      try {
-        config.base = '/'
-      } catch (error) {
-        console.error('Erro ao definir config.base:', error);
-        config.base = '/design-system/'
-      }
     }
    
    return mergeConfig(config, {
