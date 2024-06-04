@@ -51,10 +51,10 @@ const config: StorybookConfig = {
 
     if (configType === 'PRODUCTION') {
       try {
-        config.base = '/design-system/'
+        config.base = '/'
       } catch (error) {
         console.error('Erro ao definir config.base:', error);
-        config.base = '/'
+        config.base = '/design-system/'
       }
     }
    
