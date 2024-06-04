@@ -45,13 +45,15 @@ const config: StorybookConfig = {
 
    
    if (configType === 'PRODUCTION') {
-      config.base = '/design-system/'
+      config.base = '/', '/design-system/'
+      
     }
    
    return mergeConfig(config, {
      // Your environment configuration here
    });
  },
+ 
 
 
   docs: {},
