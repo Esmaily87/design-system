@@ -27,6 +27,7 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@storybook/addon-mdx-gfm"),
     getAbsolutePath("@storybook/addon-a11y"),
+    getAbsolutePath("@storybook/addon-mdx-gfm"),
     getAbsolutePath("@storybook/addon-mdx-gfm")
   ],
 
@@ -36,7 +37,7 @@ const config: StorybookConfig = {
   // },
 
 
-  framework: '@storybook/react-vite',
+  framework: getAbsolutePath("@storybook/react-vite"),
   
   async viteFinal(config, { configType }) {
     
