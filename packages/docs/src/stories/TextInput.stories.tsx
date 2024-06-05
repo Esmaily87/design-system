@@ -35,5 +35,6 @@ export default {
   export const WithPrefix: StoryObj<TextInputProps> = {
     args: {
       prefix: 'cal.com/',
+      placeholder: 'your-username',
     },
   }
